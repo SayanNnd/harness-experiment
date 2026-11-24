@@ -59,7 +59,7 @@ harness-experiment/
 Each run is a standalone Vite + React + TypeScript app:
 
 ```bash
-cd claude-cli/run2        # or any other run folder
+cd claude-cli      # or any other run folder
 npm install
 npm run dev
 ```
