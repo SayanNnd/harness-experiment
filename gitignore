@@ -1,10 +1,10 @@
 # Dependencies and build output
-node_modules/
-dist/
-build/
-.vite/
-*.tsbuildinfo
-coverage/
+/node_modules/
+/dist/
+/build/
+/.vite/
+/*.tsbuildinfo
+/coverage/
 
 # Secrets and local config: never commit these
 .env
