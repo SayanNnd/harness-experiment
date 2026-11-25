@@ -2,7 +2,7 @@
 
 The same model, the same API provider and the same two prompts, run through two different harnesses: **Claude CLI** and **opencode**. This repo holds both sets of output, the raw request data, and the scripts to check the numbers.
 
-Write-up: <BLOG_POST_URL>
+Write-up: [Blog Page](https://sayannnd.github.io/About-Me/blog/post.html?slug=harness)
 
 ## The question
 
@@ -98,4 +98,3 @@ The provider reports one "Charged" number per request. The weights below were fi
 - **The harness is bundled with other things.** opencode ran with plan mode and a set of Superpowers skills, and Claude CLI ran in auto mode. I can't separate the harness from those settings.
 - **Run 2 wasn't perfectly identical.** The opencode run had an approval step and was told "don't be too ambitious". The Claude CLI run had no such step.
 - **opencode's total is probably a floor.** Its review subagents likely aren't in the request log.
-- **Sound quality is unmeasured.** Both builds still need a listening check.
